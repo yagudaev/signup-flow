@@ -4,7 +4,8 @@
 @Config =
 
 	# Basic Details
-	name: 'My App'
+	name: ->
+		TAPi18n.__ 'configName'
 	title: ->
 			TAPi18n.__ 'configTitle'
 	subtitle: ->
@@ -12,7 +13,7 @@
 	logo: ->
 		'<b>' + @name + '</b>'
 	footer: ->
-		@name + ' - Copyright ' + new Date().getFullYear()
+		@name() + ' - Copyright ' + new Date().getFullYear()
 
 	# Emails
 	emails:
@@ -27,31 +28,28 @@
 	dateFormat: 'D/M/YYYY'
 
 	# Meta / Extenrnal content
-	privacyUrl: 'http://meteorfactory.io'
-	termsUrl: 'http://meteorfactory.io'
+	privacyUrl: '/privacy'
+	termsUrl: '/terms-of-use'
 
 	# For email footers
 	legal:
-		address: 'Jessnerstrasse 18, 12047 Berlin'
-		name: 'Meteor Factory'
-		url: 'http://benjaminpeterjones.com'
+		address: '702-207 W Hastings, Vancouver, Canada'
+		name: 'Gastown Labs'
+		url: 'http://gastownlabs.com'
 
 	about: 'http://meteorfactory.io'
 	blog: 'http://learn.meteorfactory.io'
 
 	socialMedia:
 		facebook:
-			url: 'http://facebook.com/benjaminpeterjones'
+			url: 'http://facebook.com/'
 			icon: 'facebook'
 		twitter:
-			url: 'http://twitter.com/BenPeterJones'
+			url: 'http://twitter.com/'
 			icon: 'twitter'
 		github:
-			url: 'http://github.com/yogiben'
+			url: 'http://github.com/'
 			icon: 'github'
-		info:
-			url: 'http://meteorfactory.io'
-			icon: 'link'
 
 	#Routes
 	homeRoute: '/'

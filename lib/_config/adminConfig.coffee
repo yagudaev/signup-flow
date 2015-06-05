@@ -1,6 +1,6 @@
 @AdminConfig =
-	name: Config.name
-	collections : 
+	name: "Signup Flow"
+	collections :
 		Posts: {
 			color: 'red'
 			icon: 'pencil'
@@ -35,5 +35,5 @@
 		# 			class: 'col-lg-3 col-xs-6'
 		# 	}
 		# ]
-	autoForm: 
-	        omitFields: ['createdAt', 'updatedAt']
+	autoForm:
+	  omitFields: ['createdAt', 'updatedAt']

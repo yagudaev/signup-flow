@@ -1,13 +1,12 @@
 {
-
 	/*Config*/
-	"configName": "My App",
-	"configTitle": "Make Meteor Apps. Fast.",
-	"configSubtitle": "Create beautiful and functioning Meteor apps really quick",
-	
+	"configName": "Signup Flow",
+	"configTitle": "Best onboarding experience",
+	"configSubtitle": "A beautiful and smooth signup experience",
+
 	/*Home*/
 	"getstarted": "Get Started",
-	"dashboard": "Go to dashboard",
+	"signup": "Signup for FREE",
 	"learn": "Learn more",
 	"intro": "Make Meteor Apps. Fast.",
 	"how": "How It Works",
@@ -19,7 +18,7 @@
 	"step_3_text": "Et ille ridens: Video, inquit, quid agas; Duo Reges: constructio interrete.",
 	"section_ipad_header": "A revolutionary product",
 	"section_ipad_text": "Do really cool stuff really quickly",
-	"section_ipad_btn": "Made by MeteorFactory",
+	"section_ipad_btn": "Made with Love!",
 	"final_text": "Your life will be instantly better.",
 	"final_cta": "Take a look",
 
@@ -68,9 +67,4 @@
 	"postPicture": "Picture",
 	// "uploadLabel": "Choose File"
 	"profilePicture": "Profile Picture"
-
-
-	
-
-
 }
